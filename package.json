@@ -1,22 +1,22 @@
 {
-  "name": "hero",
+  "name": "appdialogflow2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "dialogflow": "^0.8.2",
-    "express": "^4.16.4",
-    "request": "^2.88.0",
-    "uuid": "^3.3.2"
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.18.2",
+    "body-parser": "^1.20.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
